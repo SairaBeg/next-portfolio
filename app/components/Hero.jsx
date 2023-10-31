@@ -39,14 +39,39 @@ const Hero = () => {
           </p>
 
           <div>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Resume
-              </span>
-            </button>
-            <button className="px-6 py-3 w-full sm:w-fit  rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white  mt-3">
-              LinkedIn
-            </button>
+            <a
+              href="BegSairaResume.pdf"
+              target="_blank"
+              className="text-white"
+              rel="noopener"
+            >
+              <button className="px-6 py-3 w-full mr-4 sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white mt-3">
+                Resume/CV
+              </button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/saira-beg/"
+              target="_blank"
+              rel="noopener"
+              className="text-white"
+            >
+              <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white mt-3">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  LinkedIn
+                </span>
+              </button>
+            </a>
+            <a
+              href="https://github.com/SairaBeg"
+              target="_blank"
+              className="text-white"
+            >
+              <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white mt-3">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  GitHub
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
@@ -54,8 +79,8 @@ const Hero = () => {
             <Image
               width={300}
               height={300}
-              src="/images/sairaNoBG.png"
-              alt="Saira with no background"
+              src="/images/Unblurred.png"
+              alt="Saira with a purple background"
               className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
