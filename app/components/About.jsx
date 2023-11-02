@@ -8,14 +8,19 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="grid grid-cols-2 list-disc pl-2">
         <li>Next.js</li>
         <li>React</li>
         <li>HTML5</li>
         <li>CSS & TailwindCSS</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>Python</li>
         <li>Java</li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>C & C#</li>
+        <li>Git & GitHub</li>
       </ul>
     ),
   },
@@ -23,10 +28,18 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>University of Mary Washington</li>
-        <li>Bachelor of Liberal Studies</li>
-        <li>Major in Computer Science</li>
+      <ul>
+        <li>
+          <span className="font-semibold">School:</span> University of Mary
+          Washington
+        </li>
+        <li>
+          <span className="font-semibold">Degree:</span> Bachelor of Liberal
+          Studies
+        </li>
+        <li>
+          <span className="font-semibold">Major:</span> Computer Science
+        </li>
       </ul>
     ),
   },
@@ -34,15 +47,15 @@ const TAB_DATA = [
     title: "Technical Expertise",
     id: "technicalExpertise",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Software Development</li>
-        <li>Software Development Life Cycle (SDLC)</li>
-        <li>Agile Methodologies</li>
-        <li> Data Structures & Algorithms</li>
-        <li>Object-Oriented Programming (OOP)</li>
-        <li>Databases</li>
-        <li>Web Development</li>
-        <li>Unit Testing</li>
+      <ul className="grid grid-cols-2 gap-2 list-disc pl-2">
+        <li className="mt-0 mb-0">Software Development & Engineering</li>
+        <li className="mt-0 mb-0">Software Development Life Cycle (SDLC)</li>
+        <li className="mt-0 mb-0">Agile Development & Methodologies</li>
+        <li className="mt-0 mb-0">Data Structures & Algorithms</li>
+        <li className="mt-0 mb-0">Object-Oriented Programming (OOP)</li>
+        <li className="mt-0 mb-0">Databases (Relational & Non-Relational)</li>
+        <li className="mt-0 mb-0">Web Development</li>
+        <li className="mt-0 mb-0">Unit Testing</li>
       </ul>
     ),
   },
