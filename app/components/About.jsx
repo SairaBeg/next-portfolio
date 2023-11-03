@@ -21,6 +21,8 @@ const TAB_DATA = [
         <li>SQL</li>
         <li>C & C#</li>
         <li>Git & GitHub</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
       </ul>
     ),
   },
@@ -77,10 +79,12 @@ const About = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            iste officiis recusandae iure laudantium accusamus provident culpa
-            aperiam dolorum? Reprehenderit ipsam eligendi temporibus
-            perspiciatis, autem commodi sed harum culpa pariatur.
+            I'm a dedicated software developer with a passion for learning. My
+            experiences include collaborative projects such as responsive
+            website development for Angels on Wheels, where I focused on
+            enhancing user experience and security. My computer science
+            education and technical skills in Java, C, Python, HTML, CSS, and
+            more position me for success in the tech industry.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

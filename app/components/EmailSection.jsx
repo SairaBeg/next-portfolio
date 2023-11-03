@@ -30,6 +30,7 @@ const EmailSection = () => {
 
     const response = await fetch(endpoint, options);
     const resData = await response.json();
+    console.log(resData);
 
     if (response.status === 200) {
       console.log("Message sent.");
@@ -42,18 +43,19 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-      <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-2/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+
+      <div className="z-9">
+        <h6 className="text-2xl font-bold text-white my-2">
           Let&apos;s Connect!
-        </h5>
+        </h6>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you want to chat or just want to say hi, I&apos;ll try
           my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 z-2 justify-end">
           <Link href="https://github.com/SairaBeg">
             <Image
               src="/images/github-mark-white.png"
@@ -78,7 +80,11 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form
+            action="https://formsubmit.co/sairabeg.dev@gmail.com"
+            className="flex flex-col"
+            method="POST"
+          >
             <div className="mb-6">
               <label
                 htmlFor="email"
