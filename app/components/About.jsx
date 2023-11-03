@@ -73,14 +73,14 @@ const About = () => {
     });
   };
   return (
-    <section className="text-white">
+    <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px16">
         <Image src="/images/VapoDesk.png" alt="desk" height={500} width={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a dedicated software developer with a passion for learning. My
-            experiences include collaborative projects such as responsive
+            I&apos;m a dedicated software developer with a passion for learning.
+            My experiences include collaborative projects such as responsive
             website development for Angels on Wheels, where I focused on
             enhancing user experience and security. My computer science
             education and technical skills in Java, C, Python, HTML, CSS, and
