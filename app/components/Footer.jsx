@@ -18,7 +18,6 @@ const Footer = () => {
             height={100}
           />
         </Link>
-        <span className="text-slate-600"> sairabeg.dev@gmail.com</span>
         <p className="text-slate-600">All rights reserved</p>
       </div>
     </footer>
