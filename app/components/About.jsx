@@ -79,12 +79,13 @@ const About = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a dedicated software developer with a passion for learning.
-            My experiences include collaborative projects such as responsive
-            website development for Angels on Wheels, where I focused on
-            enhancing user experience and security. My computer science
-            education and technical skills in Java, C, Python, HTML, CSS, and
-            more position me for success in the tech industry.
+            I&apos;m a dedicated software developer driven by a love for
+            continuous learning. My experiences include collaborative projects
+            such as responsive website development for Angels on Wheels, where I
+            focused on enhancing user experience and security. My educational
+            background in Computer Science along with technical proficiency in
+            HTML, CSS, JavaScript, Java, Python, SQL and more prepare me for a
+            successful career in the tech industry.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

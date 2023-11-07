@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="home">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -38,10 +38,11 @@ const Hero = () => {
             />
           </h1>
           <p className="text-[#ADB&BE] text-base sm:text-lg lg:text-xl">
-            A highly motivated Full-Stack Software Developer with skills in
-            software development, web development, and database management using
-            languages such as Java, Python, SQL, HTML, CSS, and JavaScript to
-            make impactful contributions to the tech industry.
+            An enthusiastic Full-Stack Software Developer with skills in
+            software development, web development, and database management. I
+            utilize a diverse set of languages such as HTML, CSS, JavaScript,
+            Java, Python, and SQL as well as frameworks like React and Next.js
+            to make meaningful contributions to the tech industry.
           </p>
 
           <div>
