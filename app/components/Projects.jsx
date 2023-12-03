@@ -36,6 +36,16 @@ const projectData = [
   },
   {
     id: 4,
+    title: "MERN Recipe Web App",
+    description:
+      "A recipe web application that uses front-end technologies like React and JavaScript. This allows users to create accounts, upload recipes, and access a library of created recipes. Implements a communication system between the front-end and MongoDB backend database through API requests, enabling users to efficiently save and retrieve recipes associated with their accounts. Node and Express.js are used on the backend establishing a responsive server architecture that integrates with MongoDB for secure storage and retrieval of recipes, showcasing full-stack development and database management.",
+    image: "/projectPics/RecipeApp.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://https://github.com/SairaBeg/recipe-web-app",
+    previewUrl: "https://recipe-web-app-eosin.vercel.app/auth",
+  },
+  {
+    id: 5,
     title: "Grayscale Converter",
     description:
       "Image processing through a Java program that involves the manipulation of pixel data in a Multidimensional Array. It converts a small .ppm image into grayscale. Grayscale images are single-channel representations of the original image, where each pixel's color information is replaced with an intensity value, ranging from pure black to pure white.",
@@ -45,7 +55,7 @@ const projectData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Spell Check",
     description:
       "This is a Java-based spell-checking application that utilizes a Binary Search Tree (BST) data structure to identify misspelled words in user-supplied text. The program prompts users to provide a dictionary file, which is loaded into a BST. The user is prompted to input a string of words for spell-checking. The program efficiently handles lowercase, non-punctuated words. The dictionary file can be customized, making this project a valuable tool for proofreading text.",
@@ -54,16 +64,16 @@ const projectData = [
     gitUrl: "https://github.com/SairaBeg/Spell-Checker",
     previewUrl: "/",
   },
-  {
-    id: 6,
-    title: "Sentiment Analyzer",
-    description:
-      "A tool made in Java that evaluates the emotional tone of user-supplied text, categorizing it as positive, negative, or neutral using a HashTable for efficient word or phrase sentiment storage and retrieval. It parses a sentiment file, inserting entries into the HashTable, the input undergoes preprocessing to remove punctuation, extra spaces, and is analyzed for its emotional tone.",
-    image: "/projectPics/sentiment.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/SairaBeg/SentimentAnalyzer",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 6,
+  //   title: "Sentiment Analyzer",
+  //   description:
+  //     "A tool made in Java that evaluates the emotional tone of user-supplied text, categorizing it as positive, negative, or neutral using a HashTable for efficient word or phrase sentiment storage and retrieval. It parses a sentiment file, inserting entries into the HashTable, the input undergoes preprocessing to remove punctuation, extra spaces, and is analyzed for its emotional tone.",
+  //   image: "/projectPics/sentiment.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/SairaBeg/SentimentAnalyzer",
+  //   previewUrl: "/",
+  // },
 ];
 
 const Projects = () => {
