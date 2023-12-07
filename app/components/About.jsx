@@ -80,7 +80,7 @@ const About = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I&apos;m a dedicated software developer driven by a love for
-            continuous learning. My experiences include collaborative projects
+            continuous learning and solving problems. My experiences include collaborative projects
             such as responsive website development for Angels on Wheels, where I
             focused on enhancing user experience and security. My educational
             background in Computer Science along with technical proficiency in
