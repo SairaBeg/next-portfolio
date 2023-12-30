@@ -75,17 +75,17 @@ const About = () => {
   return (
     <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px16">
-        <Image src="/images/VapoDesk.png" alt="desk" height={500} width={500} />
+        <Image src="/images/DALLdesk.png" alt="desk" height={500} width={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I&apos;m a dedicated software developer driven by a love for
-            continuous learning and solving problems. My experiences include collaborative projects
-            such as responsive website development for Angels on Wheels, where I
-            focused on enhancing user experience and security. My educational
-            background in Computer Science along with technical proficiency in
-            HTML, CSS, JavaScript, Java, Python, SQL and more prepare me for a
-            successful career in the tech industry.
+            continuous learning and solving problems. My experiences include
+            collaborative projects such as responsive website development for
+            Angels on Wheels, where I focused on enhancing user experience and
+            security. My educational background in Computer Science along with
+            technical proficiency in HTML, CSS, JavaScript, Java, Python, SQL
+            and more prepare me for a successful career in the tech industry.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
